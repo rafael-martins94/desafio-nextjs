@@ -34,7 +34,7 @@ export default function TopBar() {
     const classes = useStyles()
 
     return (
-        <AppBar color = 'secondary' justify-content='space-between' >
+        <AppBar color = 'secondary' >
             <Toolbar >
                 <Box display= 'flex' alignItems='center' >
                     <img className={classes.logo} 
